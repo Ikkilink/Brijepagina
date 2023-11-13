@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    --opacidad-negro: 0.9;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opaciad-negro)),rgba (0, 0, 0, var(--opaciad-negro))), url("../img/R.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+.font-size
+{
+    font-size: 25px;
+    font-family: 'Kufam', sans-serif;
+}
+.imgcarousel
+{
+  
+    max-height: 30rem;
+}
