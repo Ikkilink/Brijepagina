@@ -4,6 +4,7 @@ body  {
     background-repeat: repeat-y;
     background-size: contain;
   }
+ 
 
 .font-size
 {
@@ -65,12 +66,67 @@ body  {
     border-width: thin;
     border-color: rgb(255, 194, 26);
 }
+#contact:hover {
+    background-color: blue;
+  }
 #games::after
 {
+    
     content: "";
     display: block;
     margin: 0 auto;
     width: 200px;
     height: 3px;
-    background-color: #cccccc;    
+    background-color: white;    
+}
+#blog::after
+{
+    
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 3px;
+    background-color: white;    
+}
+#about::after
+{
+    
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 3px;
+    background-color: white;    
+}
+.pad2
+{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.color1
+{
+    background-color: rgb(255, 195, 31)
+}
+#persona:hover
+{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#racrew:hover
+{
+    background-color: rgb(255, 0, 179);
+    color: white;
+}
+#mm:hover
+{
+    background-color: rgb(183, 0, 255);
+    color: white;
 }

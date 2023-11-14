@@ -14,7 +14,7 @@
   <body>
     
    <header>
-    <nav class="navbar fixed-top border-body navbar-expand-lg px-5" data-bs-theme="dark">
+    <nav class="navbar fixed-top border-body navbar-expand-lg px-5" data-bs-theme="dark" id="navbar-example2" >
         <div class="container-fluid">
          <a class="navbar-brand" href="#">
             <img src="./img/logo.png" alt="Bootstrap" width="30" height="24"></a>
@@ -23,19 +23,19 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           
-          <div class="collapse navbar-collapse   " id="navbarSupportedContent">
+          <div class="collapse navbar-collapse   " id="navbarSupportedContent" >
             <ul class="navbar-nav  mb-2 mb-lg-0 font-size ms-auto solid" style="background-color: rgb(0, 0, 0, 0.8);">
               <li class="nav-item px-4">
-                <a class="nav-link active" aria-current="page" href="#games">GAMES</a>
+                <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">GAMES</a>
               </li>
               <li class="nav-item px-4">
-                <a class="nav-link active" href="#blog">NEWS</a>
+                <a class="nav-link active" href="#scrollspyHeading2">NEWS</a>
               </li>
               <li class="nav-item px-4">
-                <a class="nav-link active" href="#about">ABOUT</a>
+                <a class="nav-link active" href="#scrollspyHeading3">ABOUT</a>
               </li>
-              <li class="nav-item px-4 " style="background-color: rgb(255, 195, 31) ">
-                <a class="nav-link active" href="#about" style="color: black;" >CONTACT US</a>
+              <li class="nav-item px-4 color1 " >
+                <a class="nav-link active" href="" style="color: black;" >CONTACT US</a>
               </li>
             </ul>
           
@@ -53,7 +53,7 @@
             <img src="./img/OIP (2).jpg" class="d-block mx-auto imgcarousel w-100 " alt="...">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="./img/OIP (1).jpg" class="d-block mx-auto imgcarousel w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -65,33 +65,36 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      
       <section class="contener background">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2" tabindex="0">
         <section class="games">
-          <div class="container">
-            <h2 id="games" class="text-center font-color pad">GAMES</h2>
+          <div class="container" id="scrollspyHeading1">
+            
+            <h1 id="games" class="text-center font-color pad">GAMES</h1>
             <br>
             <br>
             <div class="d-flex justify-content-center row row-cols-1 row-cols-md-2 g-4" data-aos="flip-left">
-              <div class=" card col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem;" >
+              <div class=" card xd col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem;" id="persona">
                 <img src="..." class="card-img-top" alt="Persona Calculator">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Persona 5 Royal Fusion Calculator</h5>
+                  <h5 class="card-title text-center ">Persona 5 Royal Fusion Calculator</h5>
                   <p class="card-text ">A Persona calculator to make your next persona 5 game easier!</p>
                   <a href="..." class="btn btn-primary">See Proyect</a>
                 </div>
               </div>
-              <div class="card col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem;">
+              <div class="card col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem;" id="racrew">
                 <img src="..." class="card-img-top" alt="Persona Calculator">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Persona 5 Royal Fusion Calculator</h5>
+                  <h5 class="card-title text-center">Cleaning Racrew</h5>
                   <p class="card-text ">A Persona calculator to make your next persona 5 game easier!</p>
                   <a href="./DOCS/Empathy_Map_1.pdf" class="btn btn-primary">See Proyect</a>
                 </div>
               </div>
-              <div class="card col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem;">
+              <div class="card col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem; " id="mm">
                 <img src="..." class="card-img-top" alt="Persona Calculator">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Persona 5 Royal Fusion Calculator</h5>
+                  <h5 class="card-title text-center">The Murder Mansion</h5>
                   <p class="card-text ">A Persona calculator to make your next persona 5 game easier!</p>
                   <a href="./DOCS/Empathy_Map_1.pdf" class="btn btn-primary">See Proyect</a>
                 </div>
@@ -101,7 +104,7 @@
               <div class=" card col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="Persona Calculator">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Persona 5 Royal Fusion Calculator</h5>
+                  <h5 class="card-title text-center">Definitely Not a Virus</h5>
                   <p class="card-text ">A Persona calculator to make your next persona 5 game easier!</p>
                   <a href="..." class="btn btn-primary">See Proyect</a>
                 </div>
@@ -109,7 +112,7 @@
               <div class="card col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="Persona Calculator">
                 <div class="card-body">
-                  <h5 class="card-title text-center">C</h5>
+                  <h5 class="card-title text-center">Juego Mosby Ritmo</h5>
                   <p class="card-text ">A Persona calculator to make your next persona 5 game easier!</p>
                   <a href="./DOCS/Empathy_Map_1.pdf" class="btn btn-primary">See Proyect</a>
                 </div>
@@ -117,7 +120,7 @@
               <div class="card col-lg-4 col-md-6 col-sm-12 mx-5"   style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="Persona Calculator">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Persona 5 Royal Fusion Calculator</h5>
+                  <h5 class="card-title text-center">Mr. Stitches Psych Ward</h5>
                   <p class="card-text ">A Persona calculator to make your next persona 5 game easier!</p>
                   <a href="./DOCS/Empathy_Map_1.pdf" class="btn btn-primary">See Proyect</a>
                 </div>
@@ -126,13 +129,15 @@
           </div>
         </section>
         <section class="blog">
-        <div class="container font-color pad" >
-          <h2 class="text-center " id="blog titulo">BLOG</h2>
+        <div class="container font-color " >
+        <div id="scrollspyHeading2">
+          <h1 class="text-center pad2" id="blog">BLOG</h1>
           <div class="row pad">
             <div class="col-lg-6 col-md-6 col-sm-12">
-                <h3>WHERE'S PROJECT ARTIFICIAL?</h3>
+                <h2 style="padding-bottom: 30px;">WHERE'S PROJECT ARTIFICIAL?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quis error pariatur rem modi! Minima ipsum animi unde quia dolore a, maiores, rerum reiciendis rem saepe, fugiat quibusdam eum itaque.</p>
-            </div>
+                <a class="d-flex justify-content-end" href="" style="color: orange; ">Read more</a>
+              </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <img src="./img/R.jpg" alt="" class="imgblog mx-auto container" data-aos="fade-left">
             </div>
@@ -141,28 +146,40 @@
                   <img src="./img/stacker-king-2.png" alt="" class="imgblog mx mx-auto container" data-aos="fade-right" >
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12">
-                  <h3>WHERES THE METRO JUEGO?</h3>
+                  <h2 style="padding-bottom: 30px;">WHERES THE METRO JUEGO?</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa nemo provident cumque fugiat. Laudantium sapiente fuga asperiores voluptates maxime a mollitia vel placeat sunt, dicta consectetur minima voluptatibus quos.</p>
-              </div>
+                  <a class="d-flex justify-content-end" href="" style="color: orange; ">Read more</a>
+                </div>
               <div class="row"style="padding-top: 100px;">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                  <h3>FUTURE IDEAS</h3>
+                  <h2 style="padding-bottom: 30px;">FUTURE IDEAS</h2>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis nisi facilis corporis perspiciatis mollitia, nesciunt doloremque magni illo minima pariatur dolor corrupti cumque recusandae! Tempore veritatis quaerat facere commodi necessitatibus!</p>
+                  <a class="d-flex justify-content-end" href="" style="color: orange; ">Read more</a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="./img/R.jpg" alt="" class="imgblog mx-auto container" data-aos="fade-left">
                 </div>
-                <div style="padding-top: 100px;">
-                  <button  type="button" class="btn btn-outline-light btn-lg d-grid gap-2 col-6 mx-auto t" data-aos="fade-up"
-                  data-aos-duration="1000">MORE BLOGS</button></div>      
+                <div style="padding-top: 100px; padding-left: 50px;">
+                  <button  type="button" class="btn btn-outline-light btn-lg mx-auto  d-grid gap-2 col-6  " data-aos="fade-up"
+                  data-aos-duration="2500">MORE BLOGS</button></div>      
         </div>
-        <div class="container font-color pad" >
-          <h2 class="text-center " style="padding-top: 100px;" id="about titulo">ABOUT</h2>
-          <p class="text-center pad">uwu</p>
+        </div>  
       </div>
-        </div>    
+        
         </section>
+        <section class="about" >
+          <div class="container font-color pad" id="scrollspyHeading3" >
+            <h1 class="text-center " style="padding-top: 100px;" id="about">ABOUT</h1>
+            <p class="text-center pad">TEAM BRIJE is a indie mexican studio that's ...</p>
+            <p class="text-center ">Our goal is ...</p>
+            <img src="./img/OIP (1).jpg" alt="" class="center">
+       
+         </div>  
+        </section>
+      </div>
       </section>
+  
+  
    </main>
    <footer></footer>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
