@@ -7,7 +7,7 @@ body  {
 
 .font-size
 {
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Kufam', sans-serif;
 }
 .imgcarousel
@@ -59,4 +59,18 @@ body  {
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
+}
+.solid {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(255, 194, 26);
+}
+#games::after
+{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 3px;
+    background-color: #cccccc;    
 }
