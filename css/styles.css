@@ -1,11 +1,9 @@
-body{
-    margin: 0;
-    --opacidad-negro: 0.9;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opaciad-negro)),rgba (0, 0, 0, var(--opaciad-negro))), url("../img/R.jpg");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-}
+body  {
+    background-image: url("../img/4dfc98fe97aec74439cc1701fbf599dc.jpg");
+    background-color: #cccccc;
+    
+  }
+
 .font-size
 {
     font-size: 25px;
@@ -16,3 +14,42 @@ body{
   
     max-height: 30rem;
 }
+.font-color
+{
+    color: white;
+   
+}
+section
+{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.contener
+{
+ margin-left: 150px;
+ margin-right: 150px;
+}
+.pad
+{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.text-center
+{
+    text-align: center;
+}
+.juegos
+{
+    margin-top: 10px;
+}
+.centercard
+{
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.imgblog
+{
+   max-width: 30rem;
+    max-height: 30rem;
+}
+
