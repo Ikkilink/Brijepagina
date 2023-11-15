@@ -66,7 +66,7 @@ body  {
     border-width: thin;
     border-color: rgb(255, 194, 26);
 }
-#contact:hover {
+#afffff:hover {
     background-color: blue;
   }
 #games::after
@@ -96,6 +96,16 @@ body  {
     display: block;
     margin: 0 auto;
     width: 200px;
+    height: 3px;
+    background-color: white;    
+}
+#contact::after
+{
+    
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 250px;
     height: 3px;
     background-color: white;    
 }
